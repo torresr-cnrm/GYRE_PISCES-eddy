@@ -1,4 +1,4 @@
-# Energy-constrained mesoscale eddy parameterisations in NEMO5 (Part 1: The Gyre Test Case)
+# Energy-constrained mesoscale eddy parameterisations in NEMO5
 
 This article provides an overview of mesoscale eddy parameterisation available in NEMO version 5. This tutorial is designed for beginners who want to get introduced to eddy parameterisations and learn how to set up NEMO experiments in order to compare available parameterisations. 
 
@@ -9,9 +9,9 @@ This article provides an overview of mesoscale eddy parameterisation available i
 
 In this tutorial, you will :
 * set-up and run an idealised gyre configuration (GYRE_PISCES).
+* use basic XIOS file manipulation to add extra variables in output files.
 * restart different experiments from an initial state, that can be used as a benchmark for eddy parameterisations. 
 * modify the configuration namelist in order to set-up mesoscale eddy parameterisations. 
-* basic XIOS file manipulation to add extra variables in output files.
 * compare your simulation outputs in order to assess the impact of eddy parameterisation choices on the ocean state.
 
 ## Mesoscale parameterisations in NEMO
