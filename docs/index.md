@@ -6,7 +6,7 @@ In this page, we recall the basic formulation of the GM parameterisation, its ex
 
 > **NOTE:**  Users familiar with the GM scheme and its implementation in NEMO5 can skip this theoretical section and can [set-up the spin-up](spin_up.md) directly.
 
-## The Gent and McWilliams parameterisation
+## The Gent and McWilliams (1990) parameterisation
 
 This parameterisation is quite often used by climate and global ocean models as in the sixth phase of the Coupled Model Intercomparison Project (CMIP6) while large uncertainties persist in the specification of the coefficient involved in the GM scheme, $$\kappa_{gm}$$. NEMO5 allows for different approaches for setting the values of $$\kappa_{gm}$$ from the simple constant case to physically-based formulations allowing space and time variations of the eddy coefficient. This page focuses on the latter case, in which NEMO offers two different formulations.
 
@@ -15,3 +15,6 @@ This parameterisation is quite often used by climate and global ocean models as 
 ### The GEOMETRIC parameterisation (Mak et al., 2022)
 
 ## Summary
+In this page, we have reviewed the so-called GM parameterisation, one bla bla bla. 
+In the following, you will set-up a simple experiment to benchmark different options under a simple gyre configuration case.
+We will start by [set-up and run a first experiment](spin_up.md) to spin-up the model for 10 years.
