@@ -22,4 +22,6 @@ It consists in an idealized rectangular domain, rotated by 45°, over which an a
 Indeed, the circulation is forced by analytical profiles of wind and buoyancy fluxes. The applied forcings vary seasonally in a sinusoidal manner between winter and summer extrema.
 
 Even though this is a very simple example, it allows to investigate the parameterised transports of mesoscale eddies on tracers and their contribution to the large scale circulation.
-In this tutorial, we will use 1° horizontal resolution test case, which is cheap enough to be runned on a personal computer and can be used as a demonstrator for comparing mesoscale parameterisations.  
+In this tutorial, we will use 1° horizontal resolution test case, which is cheap enough to be runned on a personal computer and can be used as a demonstrator for comparing mesoscale parameterisations.
+
+Now that you know a bit more about the configuration you're going to use, it's time to start [the tutorial](https://torresr-cnrm.github.io/GYRE_PISCES-eddy).
