@@ -17,7 +17,7 @@ In this tutorial, you will :
 
 ## Mesoscale parameterisations within the GYRE_PISCES configuration
 
-The GYRE configuration has been built to simulate the seasonal cycle of a double-gyre box model. The configuration is meant to represent an idealized North Atlantic or North Pacific basin.
+The GYRE configuration has been built to simulate the seasonal cycle of a double-gyre box model (see Figure below). The configuration is meant to represent an idealized North Atlantic or North Pacific basin.
 It consists in an idealized rectangular domain, rotated by 45°, over which an analytical seasonal forcing is applied.
 Indeed, the circulation is forced by analytical profiles of wind and buoyancy fluxes. The applied forcings vary seasonally in a sinusoidal manner between winter and summer extrema.
 
@@ -25,3 +25,8 @@ Even though this is a very simple example, it allows to investigate the paramete
 In this tutorial, we will use 1° horizontal resolution test case, which is cheap enough to be runned on a personal computer and can be used as a demonstrator for comparing mesoscale parameterisations.
 
 Now that you know a bit more about the configuration you're going to use, it's time to start [the tutorial](https://torresr-cnrm.github.io/GYRE_PISCES-eddy).
+
+&nbsp;
+
+![alt text](docs/Levy-OM-2010-Fig1.png)
+__Figure:__ Left panel: the analytical wind forcings which vary between winter (solid line) and summer (dashed line) in a sinusoidal manner. Right panel: the rotated domain and the mean barotropic stream function as shown in [Lévy et al. (2010)](http://dx.doi.org/10.1016/j.ocemod.2010.04.001)
