@@ -58,4 +58,4 @@ where $$M^2$$ and $$N2$$ are the horizontal and vertical buoyancy stratification
 ## Summary
 In this page, we have reviewed the so-called GM parameterisation, one bla bla bla. 
 In the following, you will set-up a simple experiment to benchmark different options under a simple gyre configuration case.
-We will start by [set-up and run a first experiment](spin_up.md) to spin-up the model for 10 years.
+We will start by [set-up and run a first experiment](setup.md) to spin-up the model for 10 years.
