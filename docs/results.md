@@ -35,3 +35,7 @@ __Figure:__ Parameterised eddy energy in EXPGEOM.
 
 ## Summary
 
+In this last page, we have shown few results from our numerical experiments that can be used to compare mesoscale parameterisation. 
+It is worthnoting that in the gyre configuration, the circulation is mostly driven by the analytical atmospheric forcings and is therefore not really sensitive to changes in the mesoscale parameterisations. 
+However, concentration of bio-geo-chemical matters can be altered by the parameterisations of mesoscale transport on longer timescale.
+in this tutorial you have learn how to set-up a numerical protocol in NEMO5 which can be used with longer simulations or other configurations.
