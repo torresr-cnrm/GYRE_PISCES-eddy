@@ -49,11 +49,24 @@ Such formulations are derived from linear instability analysis ([Visbeck et al.,
 
 In NEMO5, the implementation uses a depth-averaged formulation and is thus closer to the one derived by [Treguier et al. (1997)](https://doi.org/10.1175/1520-0485(1997)027%3C0567:POQEIP%3E2.0.CO;2) and their equation 51:
 
-$$ \kappa_{gm} = R_d^2 \sqrt{\int{M^4/N^2\,dz}}$$
+$$ \kappa_{gm} = R_d^2 \sqrt{\int{M^4/N^2 dz}}$$
 
 where $$M^2$$ and $$N2$$ are the horizontal and vertical buoyancy stratification, respectively, and $R_d$ the local Rossby radius of deformation.
 
-### The GEOMETRIC parameterisation (Mak et al., 2022)
+### Energy-constrained mesoscale parameterisation (Mak et al., 2022)
+
+[Marshall et al. (2012)]() have proposed a framework to parameterise mesoscale eddy fluxes of potential vorticity. 
+This framework offers a geometric interpretation of the parameters in terms of eddy shapes and orientations. 
+It is derived from the quasi-geostrophic equations and uses momentum and energy constraints to write the eddy potential vorticity flux in terms of an eddy stress tensor. 
+In particular, it allows to redefine the horizontal buoyancy diffusivity associated to $$\kappa_{gm}$$ as a function of the total (kinetic + potential) eddy energy $$E$$. 
+In NEMO, the two-dimensional formulation of the GEOMETRIC framework [Mak et al., (2022)]() is used:
+
+$$ \kappa_{gm} = \alpha_{geom} \int{E dz} \int{\frac{N}{M^2} dz}$$
+
+where the parameter $$\alpha_{geom}$$ is a dimensionless constant which represents the eddy efficiency to convert available potential energy into eddy energy. 
+By construction, it is bounded by unity.
+
+An important aspect of the GEOMETRIC parameterisation is that the GM coefficient is proportional to an eddy energy field which is computed over the simulation by solving a prognostic eddy energy budget.
 
 ## Summary
 In this page, we have reviewed the so-called GM parameterisation, one bla bla bla. 
