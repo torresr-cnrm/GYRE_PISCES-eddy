@@ -55,11 +55,11 @@ where $$M^2$$ and $$N2$$ are the horizontal and vertical buoyancy stratification
 
 ### Energy-constrained mesoscale parameterisation (Mak et al., 2022)
 
-[Marshall et al. (2012)]() have proposed a framework to parameterise mesoscale eddy fluxes of potential vorticity. 
+[Marshall et al. (2012)](https://doi.org/10.1175/jpo-d-11-048.1) have proposed a framework to parameterise mesoscale eddy fluxes of potential vorticity. 
 This framework offers a geometric interpretation of the parameters in terms of eddy shapes and orientations. 
 It is derived from the quasi-geostrophic equations and uses momentum and energy constraints to write the eddy potential vorticity flux in terms of an eddy stress tensor. 
 In particular, it allows to redefine the horizontal buoyancy diffusivity associated to $$\kappa_{gm}$$ as a function of the total (kinetic + potential) eddy energy $$E$$. 
-In NEMO, the two-dimensional formulation of the GEOMETRIC framework [Mak et al., (2022)]() is used:
+In NEMO, the two-dimensional formulation of the GEOMETRIC framework [Mak et al., (2022)](https://doi.org/10.1029/2021GL097259) is used:
 
 $$ \kappa_{gm} = \alpha_{geom} \int{E dz} \int{\frac{N}{M^2} dz}$$
 
