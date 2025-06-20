@@ -69,6 +69,6 @@ By construction, it is bounded by unity.
 An important aspect of the GEOMETRIC parameterisation is that the GM coefficient is proportional to an eddy energy field which is computed over the simulation by solving a prognostic eddy energy budget.
 
 ## Summary
-In this page, we have reviewed the so-called GM parameterisation, one bla bla bla. 
+In this page, we have reviewed the so-called GM parameterisation, one of the most common scheme to represent unresolved mesoscale transport of tracers in low-resolution ocean models. 
 In the following, you will set-up a simple experiment to benchmark different options under a simple gyre configuration case.
 We will start by [set-up and run a first experiment](setup.md) to spin-up the model for 10 years.
