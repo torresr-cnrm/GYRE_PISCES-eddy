@@ -1,4 +1,4 @@
-# Mesoscale eddy parameterisations in NEMO5
+# Mesoscale eddy parameterisations in NEMO5 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15706024.svg)](https://doi.org/10.5281/zenodo.15706024)
 
 This article provides an overview of mesoscale eddy parameterisation available in NEMO version 5. This tutorial is designed for beginners who want to get introduced to eddy parameterisations and learn how to set up NEMO experiments in order to compare available parameterisations. 
 
