@@ -28,5 +28,5 @@ Now that you know a bit more about the configuration you're going to use, it's t
 
 &nbsp;
 
-![alt text](docs/Levy-OM-2010-Fig1.png)
+![alt text](docs/imgs/Levy-OM-2010-Fig1.png)
 __Figure:__ Left panel: the analytical wind forcings which vary between winter (solid line) and summer (dashed line) in a sinusoidal manner. Right panel: the rotated domain and the mean barotropic stream function as shown in [Lévy et al. (2010)](http://dx.doi.org/10.1016/j.ocemod.2010.04.001)
